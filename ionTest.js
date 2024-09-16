@@ -52,7 +52,7 @@ let firstTime = true;
 let savedmiss = "none!";
 let firstMistake =true;
 let done = document.getElementById("popup");
-
+const order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43];
 function subOptimalScript(){
     let unmodified = document.getElementById("input").value;
     let length = unmodified.length;
@@ -143,6 +143,14 @@ function subOptimalScript(){
         }
     }
 }
+orderRandom(order);
+function orderRandom(array){
+    for(let i = array.length - 1; i>0; i--){
+        const random = Math.floor(Math.random()*(i+1));
+        [array[i], array[random]] = [array[random], array[i]];
+    }
+console.log(order);
+}
 function generate(){
     total++;
     display2.textContent = "Question: "+ total+ "/"+"18";
@@ -151,7 +159,7 @@ function generate(){
         mistakes.textContent = "Mistakes: "+ savedmiss;
         display2.textContent = "Question: "+ 1+ "/"+"18";
     }
-    let a = Math.floor(Math.random()*44);
+    let a = order[total-1];
     let b = Math.floor(Math.random()*2);
     let c;
     if(b == 0){
@@ -205,5 +213,6 @@ document.getElementById("retry").onclick=function(){
     correct = 0;
     savedmiss = "none!";
     firstMistake =true;
+    orderRandom(order);
 }
 
