@@ -189,9 +189,12 @@ document.getElementById("submit").onclick=function(){
         if(firstMistake==true){
             savedmiss = answer;
             firstMistake = false;
+            firstTime = false;
         }
         else{
+            if(firstTime==true){
             savedmiss = savedmiss.concat(", ",answer);
+            }
             firstTime = false;
         }
     }
