@@ -1,3 +1,4 @@
+//No commets ;)
 const ions = [
     ["chromium (II) ion","Cr⁺²"],
     ["magnesium ion","Mg⁺²"],
