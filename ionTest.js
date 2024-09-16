@@ -1,112 +1,48 @@
 const ions = [
     ["chromium (II) ion","Cr⁺²"],
     ["magnesium ion","Mg⁺²"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
-    ["sulfate","SO₄⁻²"],
-    ["nitrate","NO₃⁻¹"],
-    ["silver ion","Ag⁺¹"]
+    ["peroxide ion","O₂⁻²"],
+    ["sulfate ion","SO₄⁻²"],
+    ["bromate ion","BrO₃⁻¹"],
+    ["fluoride ion","F⁻¹"],
+    ["cuprous ion","Cu⁺¹"],
+    ["iron (III) ion","Fe⁺³"],
+    ["ammonium ion","NH₄⁺¹"],
+    ["oxide ion","O⁻²"],
+    ["phosphide ion","P⁻³"],
+    ["phosphate ion","PO₄⁻³"],
+    ["hydronium ion","H₃O⁺¹"],
+    ["cupric ion","Cu⁺²"],
+    ["silver ion","Ag⁺¹"],
+    ["nitrate ion","NO₃⁻¹"],
+    ["acetate ion","C₂H₃O₂⁻¹"],
+    ["chromate ion","Cr₂O₄⁻²"],
+    ["lithium ion","Li⁺¹"],
+    ["strontium ion","Sr⁺²"],
+    ["plumbic ion","Pb⁺⁴"],
+    ["aluminum ion","Al⁺³"],
+    ["carbonate ion","CO₃⁻²"],
+    ["barium ion","Ba⁺²"],
+    ["iron(II) ion","Fe⁺²"],
+    ["zinc ion","Zn⁺²"],
+    ["oxalate ion","C₂O₄⁻²"],
+    ["sodium ion","Na⁺¹"],
+    ["ferric ion","Fe⁺³"],
+    ["ferrous ion","Fe⁺²"],
+    ["copper (II) ion","Cu⁺²"],
+    ["bicarbonate ion","HCO₃⁻¹"],
+    ["hydrogen ion","H⁺¹"],
+    ["hydroxide ion","OH⁻¹"],
+    ["hydride ion","H⁻¹"],
+    ["perchlorate ion","ClO₄⁻¹"],
+    ["hypochlorate ion","ClO⁻¹"],
+    ["dichromate ion","Cr₂O₇⁻²"],
+    ["sulfide ion","S⁻²"],
+    ["cyanide ion","CN⁻¹"],
+    ["permanganate ion","MnO₄⁻¹"],
+    ["chlorite ion","ClO₂⁻¹"],
+    ["chlorate ion","ClO₃⁻¹"],
+    ["nitrite ion","NO₂⁻¹"]
 ]
 let correct = 0;
 let total = 0;
@@ -208,13 +144,13 @@ function subOptimalScript(){
 }
 function generate(){
     total++;
-    display2.textContent = "Question: "+ total+ "/"+"36";
-    if(total > 36){
+    display2.textContent = "Question: "+ total+ "/"+"18";
+    if(total > 18){
         done.style.visibility = "visible"
         mistakes.textContent = "Mistakes: "+ savedmiss;
-        display2.textContent = "Question: "+ 1+ "/"+"36";
+        display2.textContent = "Question: "+ 1+ "/"+"18";
     }
-    let a = Math.floor(Math.random()*2);
+    let a = Math.floor(Math.random()*44);
     let b = Math.floor(Math.random()*2);
     let c;
     if(b == 0){
