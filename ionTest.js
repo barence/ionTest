@@ -21,7 +21,7 @@ const ions = [
     ["lithium ion","Li⁺¹"],
     ["strontium ion","Sr⁺²"],
     ["plumbic ion","Pb⁺⁴"],
-    ["aluminium ion","Al⁺³"],
+    ["aluminum ion","Al⁺³"],
     ["carbonate ion","CO₃⁻²"],
     ["barium ion","Ba⁺²"],
     ["zinc ion","Zn⁺²"],
