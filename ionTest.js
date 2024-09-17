@@ -1,13 +1,13 @@
 //No commets ;)
 const ions = [
-    ["chromium (II) ion","Cr⁺²"],
+    ["chromous ion","Cr⁺²"],
+    ["chromic ion","Cr⁺³"],
     ["magnesium ion","Mg⁺²"],
     ["peroxide ion","O₂⁻²"],
     ["sulfate ion","SO₄⁻²"],
     ["bromate ion","BrO₃⁻¹"],
     ["fluoride ion","F⁻¹"],
     ["cuprous ion","Cu⁺¹"],
-    ["iron (III) ion","Fe⁺³"],
     ["ammonium ion","NH₄⁺¹"],
     ["oxide ion","O⁻²"],
     ["phosphide ion","P⁻³"],
@@ -24,7 +24,6 @@ const ions = [
     ["aluminum ion","Al⁺³"],
     ["carbonate ion","CO₃⁻²"],
     ["barium ion","Ba⁺²"],
-    ["iron (II) ion","Fe⁺²"],
     ["zinc ion","Zn⁺²"],
     ["oxalate ion","C₂O₄⁻²"],
     ["sodium ion","Na⁺¹"],
