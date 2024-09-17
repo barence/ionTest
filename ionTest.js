@@ -34,7 +34,7 @@ const ions = [
     ["hydroxide ion","OH⁻¹"],
     ["hydride ion","H⁻¹"],
     ["perchlorate ion","ClO₄⁻¹"],
-    ["hypochlorate ion","ClO⁻¹"],
+    ["hypochlorite ion","ClO⁻¹"],
     ["dichromate ion","Cr₂O₇⁻²"],
     ["sulfide ion","S⁻²"],
     ["cyanide ion","CN⁻¹"],
@@ -220,5 +220,6 @@ document.getElementById("retry").onclick=function(){
     savedmiss = "none!";
     firstMistake =true;
     orderRandom(order);
+    generate();
 }
 
