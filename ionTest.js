@@ -177,10 +177,10 @@ document.getElementById("input").addEventListener("keypress",function(event){
         document.getElementById("submit").click();
     }
 });
-document.getElementById("input").addEventListener("keypress",function(event){
-    if (event.key === "p"){
+document.addEventListener("keypress",function(event){
+    if (event.ctrlKey && event.key === "."){
         event.preventDefault();
-        total++;
+        generate();
     }
 });
 document.getElementById("submit").onclick=function(){
