@@ -158,6 +158,7 @@ function generate(){
         display2.textContent = "Question: "+ 1+ "/"+"18";
         final.textContent = correct+"/"+(total-1);
         correct = 0;
+        display1.textContent = "Correct: " + correct;
     }
     let a = order[total-1];
     let b = Math.floor(Math.random()*2);
