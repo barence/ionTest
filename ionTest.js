@@ -156,7 +156,7 @@ function generate(){
         done.style.visibility = "visible"
         mistakes.textContent = "Mistakes: "+ savedmiss;
         display2.textContent = "Question: "+ 1+ "/"+"18";
-        final.textContent = correct+"/"+total-1;
+        final.textContent = correct+"/"+(total-1);
     }
     let a = order[total-1];
     let b = Math.floor(Math.random()*2);
