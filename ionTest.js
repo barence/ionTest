@@ -157,6 +157,7 @@ function generate(){
         mistakes.textContent = "Mistakes: "+ savedmiss;
         display2.textContent = "Question: "+ 1+ "/"+"18";
         final.textContent = correct+"/"+(total-1);
+        correct = 0;
     }
     let a = order[total-1];
     let b = Math.floor(Math.random()*2);
@@ -174,6 +175,12 @@ document.getElementById("input").addEventListener("keypress",function(event){
     if (event.key === "Enter"){
         event.preventDefault();
         document.getElementById("submit").click();
+    }
+});
+document.getElementById("input").addEventListener("keypress",function(event){
+    if (event.key === "p"){
+        event.preventDefault();
+        total++;
     }
 });
 document.getElementById("submit").onclick=function(){
